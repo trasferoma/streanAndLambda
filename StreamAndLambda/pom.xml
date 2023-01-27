@@ -9,7 +9,7 @@
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-    	<java.version>11</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<build>
@@ -45,6 +45,12 @@
 			<groupId>me.qoomon</groupId>
 			<artifactId>git-versioning</artifactId>
 			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.12.0</version>
 		</dependency>
 
 	</dependencies>
