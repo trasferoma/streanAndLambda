@@ -8,8 +8,8 @@ import lombok.ToString;
 @Getter
 @ToString
 class BlogPost {
-    String title;
-    String author;
-    BlogPostType type;
-    int likes;
+    private String title;
+    private String author;
+    private BlogPostType type;
+    private int likes;
 }
